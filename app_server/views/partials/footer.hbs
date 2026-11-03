@@ -1,8 +1,8 @@
 <div id="footer">
   <div>
     <ul class="navigation">
-      <li class="active"><a href="/">Home</a></li>
-      <li><a href="/travel.html">Travel</a></li>
+      <li{{#unless isTravel}} class="active"{{/unless}}><a href="/">Home</a></li>
+      <li{{#if isTravel}} class="active"{{/if}}><a href="/travel">Travel</a></li>
       <li><a href="/rooms.html">Rooms</a></li>
       <li><a href="/meals.html">Meals</a></li>
       <li><a href="/news.html">News</a></li>

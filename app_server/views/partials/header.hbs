@@ -4,8 +4,12 @@
   </div>
   <div id="navigation">
     <ul>
-      <li class="selected"><a href="/">Home</a></li>
-      <li><a href="/travel.html">Travel</a></li>
+      <li{{#unless isTravel}} class="selected"{{/unless}}>
+        <a href="/">Home</a>
+      </li>
+      <li{{#if isTravel}} class="selected"{{/if}}>
+        <a href="/travel">Travel</a>
+      </li>
       <li><a href="/rooms.html">Rooms</a></li>
       <li><a href="/meals.html">Meals</a></li>
       <li><a href="/news.html">News</a></li>
