@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Gale Reef",
+    "image": "reef1.jpg",
+    "description": "<p>Gale Reef offers a colorful underwater setting for a memorable diving adventure.</p><p>Explore the reef and enjoy the surrounding marine life.</p>"
+  },
+  {
+    "name": "Dawson's Reef",
+    "image": "reef2.jpg",
+    "description": "<p>Dawson's Reef is a beautiful destination for exploring coral formations and tropical fish.</p><p>Enjoy clear water and discover the scenery beneath the surface.</p>"
+  },
+  {
+    "name": "Claire's Reef",
+    "image": "reef3.jpg",
+    "description": "<p>Claire's Reef provides an inviting setting for discovering underwater wildlife.</p><p>Experience the reef's natural beauty during your vacation.</p>"
+  }
+]
