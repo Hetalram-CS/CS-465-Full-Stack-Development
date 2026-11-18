@@ -4,7 +4,8 @@ var path = require('path');
 var hbs = require('hbs');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-
+// Connect to MongoDB
+require('./app_server/models/db');
 var indexRouter = require('./app_server/routes/index');
 var travelRouter = require('./app_server/routes/travel');
 var usersRouter = require('./app_server/routes/users');
